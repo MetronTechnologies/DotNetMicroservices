@@ -1,0 +1,13 @@
+/Users/jeremiahekanem/Documents/C#Projects/CleanArchitectureMicroservice/RestaurantService/Restaurant.Domain/bin/Debug/net7.0/Restaurant.Domain.deps.json
+/Users/jeremiahekanem/Documents/C#Projects/CleanArchitectureMicroservice/RestaurantService/Restaurant.Domain/bin/Debug/net7.0/Restaurant.Domain.dll
+/Users/jeremiahekanem/Documents/C#Projects/CleanArchitectureMicroservice/RestaurantService/Restaurant.Domain/bin/Debug/net7.0/Restaurant.Domain.pdb
+/Users/jeremiahekanem/Documents/C#Projects/CleanArchitectureMicroservice/RestaurantService/Restaurant.Domain/obj/Debug/net7.0/Restaurant.Domain.csproj.AssemblyReference.cache
+/Users/jeremiahekanem/Documents/C#Projects/CleanArchitectureMicroservice/RestaurantService/Restaurant.Domain/obj/Debug/net7.0/Restaurant.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jeremiahekanem/Documents/C#Projects/CleanArchitectureMicroservice/RestaurantService/Restaurant.Domain/obj/Debug/net7.0/Restaurant.Domain.AssemblyInfoInputs.cache
+/Users/jeremiahekanem/Documents/C#Projects/CleanArchitectureMicroservice/RestaurantService/Restaurant.Domain/obj/Debug/net7.0/Restaurant.Domain.AssemblyInfo.cs
+/Users/jeremiahekanem/Documents/C#Projects/CleanArchitectureMicroservice/RestaurantService/Restaurant.Domain/obj/Debug/net7.0/Restaurant.Domain.csproj.CoreCompileInputs.cache
+/Users/jeremiahekanem/Documents/C#Projects/CleanArchitectureMicroservice/RestaurantService/Restaurant.Domain/obj/Debug/net7.0/Restaurant.Domain.dll
+/Users/jeremiahekanem/Documents/C#Projects/CleanArchitectureMicroservice/RestaurantService/Restaurant.Domain/obj/Debug/net7.0/refint/Restaurant.Domain.dll
+/Users/jeremiahekanem/Documents/C#Projects/CleanArchitectureMicroservice/RestaurantService/Restaurant.Domain/obj/Debug/net7.0/Restaurant.Domain.pdb
+/Users/jeremiahekanem/Documents/C#Projects/CleanArchitectureMicroservice/RestaurantService/Restaurant.Domain/obj/Debug/net7.0/ref/Restaurant.Domain.dll
+/Users/jeremiahekanem/Documents/C#Projects/CleanArchitectureMicroservice/RestaurantService/Restaurant.Domain/bin/Debug/net7.0/NLog.config

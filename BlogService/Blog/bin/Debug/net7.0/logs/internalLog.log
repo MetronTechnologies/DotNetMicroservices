@@ -1,0 +1,92 @@
+2024-07-31 08:01:17.2293 Info Registered target NLog.Targets.FileTarget(Name=fileTarget)
+2024-07-31 08:01:17.2434 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-07-31 08:01:17.2902 Info Validating config: TargetNames=fileTarget, ConfigItems=23, FilePath=/Users/jeremiahekanem/Documents/C#Projects/CleanArchitectureMicroservice/BlogService/Blog/bin/Debug/net7.0/NLog.config
+2024-07-31 08:01:17.3054 Info Configuration initialized.
+2024-07-31 08:12:03.8968 Info Registered target NLog.Targets.FileTarget(Name=fileTarget)
+2024-07-31 08:12:03.9161 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-07-31 08:12:04.0339 Info Validating config: TargetNames=fileTarget, ConfigItems=23, FilePath=/Users/jeremiahekanem/Documents/C#Projects/CleanArchitectureMicroservice/BlogService/Blog/bin/Debug/net7.0/NLog.config
+2024-07-31 08:12:04.0550 Info Configuration initialized.
+2024-08-01 00:57:56.8902 Info Registered target NLog.Targets.FileTarget(Name=fileTarget)
+2024-08-01 00:57:56.9105 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-08-01 00:57:56.9818 Info Validating config: TargetNames=fileTarget, ConfigItems=23, FilePath=/Users/jeremiahekanem/Documents/C#Projects/CleanArchitectureMicroservice/BlogService/Blog/bin/Debug/net7.0/NLog.config
+2024-08-01 00:57:57.0103 Info Configuration initialized.
+2024-08-01 02:13:13.3996 Info Registered target NLog.Targets.FileTarget(Name=fileTarget)
+2024-08-01 02:13:13.4481 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-08-01 02:13:13.5049 Info Validating config: TargetNames=fileTarget, ConfigItems=23, FilePath=/Users/jeremiahekanem/Documents/C#Projects/CleanArchitectureMicroservice/BlogService/Blog/bin/Debug/net7.0/NLog.config
+2024-08-01 02:13:13.5208 Info Configuration initialized.
+2024-08-01 07:31:57.3931 Info Registered target NLog.Targets.FileTarget(Name=fileTarget)
+2024-08-01 07:31:57.4316 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-08-01 07:31:57.5194 Info Validating config: TargetNames=fileTarget, ConfigItems=23, FilePath=/Users/jeremiahekanem/Documents/C#Projects/CleanArchitectureMicroservice/BlogService/Blog/bin/Debug/net7.0/NLog.config
+2024-08-01 07:31:57.5501 Info Configuration initialized.
+2024-08-01 07:33:18.3744 Info Registered target NLog.Targets.FileTarget(Name=fileTarget)
+2024-08-01 07:33:18.3865 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-08-01 07:33:18.4241 Info Validating config: TargetNames=fileTarget, ConfigItems=23, FilePath=/Users/jeremiahekanem/Documents/C#Projects/CleanArchitectureMicroservice/BlogService/Blog/bin/Debug/net7.0/NLog.config
+2024-08-01 07:33:18.4360 Info Configuration initialized.
+2024-08-01 07:47:46.5296 Info Registered target NLog.Targets.FileTarget(Name=fileTarget)
+2024-08-01 07:47:46.5647 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-08-01 07:47:46.6081 Info Validating config: TargetNames=fileTarget, ConfigItems=23, FilePath=/Users/jeremiahekanem/Documents/C#Projects/CleanArchitectureMicroservice/BlogService/Blog/bin/Debug/net7.0/NLog.config
+2024-08-01 07:47:46.6212 Info Configuration initialized.
+2024-08-01 07:53:07.9072 Info Registered target NLog.Targets.FileTarget(Name=fileTarget)
+2024-08-01 07:53:08.1254 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-08-01 07:53:08.5952 Info Validating config: TargetNames=fileTarget, ConfigItems=23, FilePath=/Users/jeremiahekanem/Documents/C#Projects/CleanArchitectureMicroservice/BlogService/Blog/bin/Debug/net7.0/NLog.config
+2024-08-01 07:53:08.6176 Info Configuration initialized.
+2024-08-01 07:57:12.0741 Info Registered target NLog.Targets.FileTarget(Name=fileTarget)
+2024-08-01 07:57:12.1105 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-08-01 07:57:12.4659 Info Validating config: TargetNames=fileTarget, ConfigItems=23, FilePath=/Users/jeremiahekanem/Documents/C#Projects/CleanArchitectureMicroservice/BlogService/Blog/bin/Debug/net7.0/NLog.config
+2024-08-01 07:57:12.4867 Info Configuration initialized.
+2024-08-01 08:06:37.4075 Info Registered target NLog.Targets.FileTarget(Name=fileTarget)
+2024-08-01 08:06:37.7263 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-08-01 08:06:38.1335 Info Validating config: TargetNames=fileTarget, ConfigItems=23, FilePath=/Users/jeremiahekanem/Documents/C#Projects/CleanArchitectureMicroservice/BlogService/Blog/bin/Debug/net7.0/NLog.config
+2024-08-01 08:06:38.1471 Info Configuration initialized.
+2024-08-01 09:33:56.0773 Info Registered target NLog.Targets.FileTarget(Name=fileTarget)
+2024-08-01 09:33:56.1284 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-08-01 09:33:56.2327 Info Validating config: TargetNames=fileTarget, ConfigItems=23, FilePath=/Users/jeremiahekanem/Documents/C#Projects/CleanArchitectureMicroservice/BlogService/Blog/bin/Debug/net7.0/NLog.config
+2024-08-01 09:33:56.2486 Info Configuration initialized.
+2024-08-01 23:23:44.0009 Info Registered target NLog.Targets.FileTarget(Name=fileTarget)
+2024-08-01 23:23:44.0401 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-08-01 23:23:44.1396 Info Validating config: TargetNames=fileTarget, ConfigItems=23, FilePath=/Users/jeremiahekanem/Documents/C#Projects/CleanArchitectureMicroservice/BlogService/Blog/bin/Debug/net7.0/NLog.config
+2024-08-01 23:23:44.1688 Info Configuration initialized.
+2024-08-01 23:49:05.3883 Info Registered target NLog.Targets.FileTarget(Name=fileTarget)
+2024-08-01 23:49:05.5755 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-08-01 23:49:05.8431 Info Validating config: TargetNames=fileTarget, ConfigItems=23, FilePath=/Users/jeremiahekanem/Documents/C#Projects/CleanArchitectureMicroservice/BlogService/Blog/bin/Debug/net7.0/NLog.config
+2024-08-01 23:49:05.8669 Info Configuration initialized.
+2024-08-01 23:49:41.2174 Info Registered target NLog.Targets.FileTarget(Name=fileTarget)
+2024-08-01 23:49:41.2522 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-08-01 23:49:41.3429 Info Validating config: TargetNames=fileTarget, ConfigItems=23, FilePath=/Users/jeremiahekanem/Documents/C#Projects/CleanArchitectureMicroservice/BlogService/Blog/bin/Debug/net7.0/NLog.config
+2024-08-01 23:49:41.3605 Info Configuration initialized.
+2024-08-01 23:55:13.4695 Info Registered target NLog.Targets.FileTarget(Name=fileTarget)
+2024-08-01 23:55:13.4832 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-08-01 23:55:13.5591 Info Validating config: TargetNames=fileTarget, ConfigItems=23, FilePath=/Users/jeremiahekanem/Documents/C#Projects/CleanArchitectureMicroservice/BlogService/Blog/bin/Debug/net7.0/NLog.config
+2024-08-01 23:55:13.5714 Info Configuration initialized.
+2024-08-01 23:59:01.0593 Info Registered target NLog.Targets.FileTarget(Name=fileTarget)
+2024-08-01 23:59:01.0710 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-08-01 23:59:01.1595 Info Validating config: TargetNames=fileTarget, ConfigItems=23, FilePath=/Users/jeremiahekanem/Documents/C#Projects/CleanArchitectureMicroservice/BlogService/Blog/bin/Debug/net7.0/NLog.config
+2024-08-01 23:59:01.1724 Info Configuration initialized.
+2024-08-01 23:59:46.9714 Info Registered target NLog.Targets.FileTarget(Name=fileTarget)
+2024-08-01 23:59:47.0734 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-08-01 23:59:47.1064 Info Validating config: TargetNames=fileTarget, ConfigItems=23, FilePath=/Users/jeremiahekanem/Documents/C#Projects/CleanArchitectureMicroservice/BlogService/Blog/bin/Debug/net7.0/NLog.config
+2024-08-01 23:59:47.1161 Info Configuration initialized.
+2024-08-02 00:21:46.5133 Info Registered target NLog.Targets.FileTarget(Name=fileTarget)
+2024-08-02 00:21:46.5370 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-08-02 00:21:46.6167 Info Validating config: TargetNames=fileTarget, ConfigItems=23, FilePath=/Users/jeremiahekanem/Documents/C#Projects/CleanArchitectureMicroservice/BlogService/Blog/bin/Debug/net7.0/NLog.config
+2024-08-02 00:21:46.6398 Info Configuration initialized.
+2024-08-02 00:30:33.2791 Info Registered target NLog.Targets.FileTarget(Name=fileTarget)
+2024-08-02 00:30:33.2932 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-08-02 00:30:33.3442 Info Validating config: TargetNames=fileTarget, ConfigItems=23, FilePath=/Users/jeremiahekanem/Documents/C#Projects/CleanArchitectureMicroservice/BlogService/Blog/bin/Debug/net7.0/NLog.config
+2024-08-02 00:30:33.3579 Info Configuration initialized.
+2024-08-02 00:35:01.6800 Info Registered target NLog.Targets.FileTarget(Name=fileTarget)
+2024-08-02 00:35:01.7021 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-08-02 00:35:02.1179 Info Validating config: TargetNames=fileTarget, ConfigItems=23, FilePath=/Users/jeremiahekanem/Documents/C#Projects/CleanArchitectureMicroservice/BlogService/Blog/bin/Debug/net7.0/NLog.config
+2024-08-02 00:35:02.1442 Info Configuration initialized.
+2024-08-02 00:38:25.4030 Info Registered target NLog.Targets.FileTarget(Name=fileTarget)
+2024-08-02 00:38:25.5783 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-08-02 00:38:25.7592 Info Validating config: TargetNames=fileTarget, ConfigItems=23, FilePath=/Users/jeremiahekanem/Documents/C#Projects/CleanArchitectureMicroservice/BlogService/Blog/bin/Debug/net7.0/NLog.config
+2024-08-02 00:38:25.7711 Info Configuration initialized.
+2024-08-03 07:02:26.0961 Info Registered target NLog.Targets.FileTarget(Name=fileTarget)
+2024-08-03 07:02:26.1389 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-08-03 07:02:26.2679 Info Validating config: TargetNames=fileTarget, ConfigItems=23, FilePath=/Users/jeremiahekanem/Documents/C#Projects/CleanArchitectureMicroservice/BlogService/Blog/bin/Debug/net7.0/NLog.config
+2024-08-03 07:02:26.3080 Info Configuration initialized.
+2024-08-03 07:03:55.8654 Info Registered target NLog.Targets.FileTarget(Name=fileTarget)
+2024-08-03 07:03:55.8770 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.2.2526. Product version: 5.3.2+8d52d4f3fcdbd84beae3442e1fdc8125598ed81f. GlobalAssemblyCache: False
+2024-08-03 07:03:55.9093 Info Validating config: TargetNames=fileTarget, ConfigItems=23, FilePath=/Users/jeremiahekanem/Documents/C#Projects/CleanArchitectureMicroservice/BlogService/Blog/bin/Debug/net7.0/NLog.config
+2024-08-03 07:03:55.9211 Info Configuration initialized.

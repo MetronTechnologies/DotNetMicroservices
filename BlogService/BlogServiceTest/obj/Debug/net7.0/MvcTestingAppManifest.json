@@ -1,0 +1,6 @@
+{
+  "Blog.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/Users\/jeremiahekanem\/Documents\/C#Projects\/CleanArchitectureMicroservice\/BlogService\/Blog.Application",
+  "Blog, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/Users\/jeremiahekanem\/Documents\/C#Projects\/CleanArchitectureMicroservice\/BlogService\/Blog",
+  "Blog.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/Users\/jeremiahekanem\/Documents\/C#Projects\/CleanArchitectureMicroservice\/BlogService\/Blog.Domain",
+  "Blog.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/Users\/jeremiahekanem\/Documents\/C#Projects\/CleanArchitectureMicroservice\/BlogService\/Blog.Infrastructure"
+}

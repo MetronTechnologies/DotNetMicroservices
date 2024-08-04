@@ -1,0 +1,162 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/jeremiahekanem/Documents/C#Projects/CleanArchitectureMicroservice/RestaurantService/Restaurant.Application/Restaurant.Application.csproj": {}
+  },
+  "projects": {
+    "/Users/jeremiahekanem/Documents/C#Projects/CleanArchitectureMicroservice/RestaurantService/Restaurant.Application/Restaurant.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/jeremiahekanem/Documents/C#Projects/CleanArchitectureMicroservice/RestaurantService/Restaurant.Application/Restaurant.Application.csproj",
+        "projectName": "Restaurant.Application",
+        "projectPath": "/Users/jeremiahekanem/Documents/C#Projects/CleanArchitectureMicroservice/RestaurantService/Restaurant.Application/Restaurant.Application.csproj",
+        "packagesPath": "/Users/jeremiahekanem/.nuget/packages/",
+        "outputPath": "/Users/jeremiahekanem/Documents/C#Projects/CleanArchitectureMicroservice/RestaurantService/Restaurant.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/jeremiahekanem/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/jeremiahekanem/Documents/C#Projects/CleanArchitectureMicroservice/RestaurantService/Restaurant.Domain/Restaurant.Domain.csproj": {
+                "projectPath": "/Users/jeremiahekanem/Documents/C#Projects/CleanArchitectureMicroservice/RestaurantService/Restaurant.Domain/Restaurant.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[9.0.0-preview.6.24327.7, )"
+            },
+            "NLog": {
+              "target": "Package",
+              "version": "[5.3.2, )"
+            },
+            "NLog.Config": {
+              "target": "Package",
+              "version": "[4.7.15, )"
+            },
+            "NLog.Extensions.Logging": {
+              "target": "Package",
+              "version": "[5.3.11, )"
+            },
+            "NLog.Web.AspNetCore": {
+              "target": "Package",
+              "version": "[5.3.11, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/jeremiahekanem/Documents/C#Projects/CleanArchitectureMicroservice/RestaurantService/Restaurant.Domain/Restaurant.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/jeremiahekanem/Documents/C#Projects/CleanArchitectureMicroservice/RestaurantService/Restaurant.Domain/Restaurant.Domain.csproj",
+        "projectName": "Restaurant.Domain",
+        "projectPath": "/Users/jeremiahekanem/Documents/C#Projects/CleanArchitectureMicroservice/RestaurantService/Restaurant.Domain/Restaurant.Domain.csproj",
+        "packagesPath": "/Users/jeremiahekanem/.nuget/packages/",
+        "outputPath": "/Users/jeremiahekanem/Documents/C#Projects/CleanArchitectureMicroservice/RestaurantService/Restaurant.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/jeremiahekanem/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[9.0.0-preview.6.24327.7, )"
+            },
+            "NLog": {
+              "target": "Package",
+              "version": "[5.3.2, )"
+            },
+            "NLog.Config": {
+              "target": "Package",
+              "version": "[4.7.15, )"
+            },
+            "NLog.Extensions.Logging": {
+              "target": "Package",
+              "version": "[5.3.11, )"
+            },
+            "NLog.Web.AspNetCore": {
+              "target": "Package",
+              "version": "[5.3.11, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

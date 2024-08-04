@@ -1,0 +1,384 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/jeremiahekanem/Documents/C#Projects/CleanArchitectureMicroservice/BlogService/Blog/Blog.csproj": {}
+  },
+  "projects": {
+    "/Users/jeremiahekanem/Documents/C#Projects/CleanArchitectureMicroservice/BlogService/Blog.Application/Blog.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/jeremiahekanem/Documents/C#Projects/CleanArchitectureMicroservice/BlogService/Blog.Application/Blog.Application.csproj",
+        "projectName": "Blog.Application",
+        "projectPath": "/Users/jeremiahekanem/Documents/C#Projects/CleanArchitectureMicroservice/BlogService/Blog.Application/Blog.Application.csproj",
+        "packagesPath": "/Users/jeremiahekanem/.nuget/packages/",
+        "outputPath": "/Users/jeremiahekanem/Documents/C#Projects/CleanArchitectureMicroservice/BlogService/Blog.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/jeremiahekanem/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/jeremiahekanem/Documents/C#Projects/CleanArchitectureMicroservice/BlogService/Blog.Domain/Blog.Domain.csproj": {
+                "projectPath": "/Users/jeremiahekanem/Documents/C#Projects/CleanArchitectureMicroservice/BlogService/Blog.Domain/Blog.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[11.9.2, )"
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[9.0.0-preview.6.24327.7, )"
+            },
+            "NLog": {
+              "target": "Package",
+              "version": "[5.3.2, )"
+            },
+            "NLog.Config": {
+              "target": "Package",
+              "version": "[4.7.15, )"
+            },
+            "NLog.Extensions.Logging": {
+              "target": "Package",
+              "version": "[5.3.11, )"
+            },
+            "NLog.Web.AspNetCore": {
+              "target": "Package",
+              "version": "[5.3.11, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/jeremiahekanem/Documents/C#Projects/CleanArchitectureMicroservice/BlogService/Blog.Domain/Blog.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/jeremiahekanem/Documents/C#Projects/CleanArchitectureMicroservice/BlogService/Blog.Domain/Blog.Domain.csproj",
+        "projectName": "Blog.Domain",
+        "projectPath": "/Users/jeremiahekanem/Documents/C#Projects/CleanArchitectureMicroservice/BlogService/Blog.Domain/Blog.Domain.csproj",
+        "packagesPath": "/Users/jeremiahekanem/.nuget/packages/",
+        "outputPath": "/Users/jeremiahekanem/Documents/C#Projects/CleanArchitectureMicroservice/BlogService/Blog.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/jeremiahekanem/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.3.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.20, )"
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[9.0.0-preview.6.24327.7, )"
+            },
+            "NLog": {
+              "target": "Package",
+              "version": "[5.3.2, )"
+            },
+            "NLog.Config": {
+              "target": "Package",
+              "version": "[4.7.15, )"
+            },
+            "NLog.Extensions.Logging": {
+              "target": "Package",
+              "version": "[5.3.11, )"
+            },
+            "NLog.Web.AspNetCore": {
+              "target": "Package",
+              "version": "[5.3.11, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/jeremiahekanem/Documents/C#Projects/CleanArchitectureMicroservice/BlogService/Blog.Infrastructure/Blog.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/jeremiahekanem/Documents/C#Projects/CleanArchitectureMicroservice/BlogService/Blog.Infrastructure/Blog.Infrastructure.csproj",
+        "projectName": "Blog.Infrastructure",
+        "projectPath": "/Users/jeremiahekanem/Documents/C#Projects/CleanArchitectureMicroservice/BlogService/Blog.Infrastructure/Blog.Infrastructure.csproj",
+        "packagesPath": "/Users/jeremiahekanem/.nuget/packages/",
+        "outputPath": "/Users/jeremiahekanem/Documents/C#Projects/CleanArchitectureMicroservice/BlogService/Blog.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/jeremiahekanem/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/jeremiahekanem/Documents/C#Projects/CleanArchitectureMicroservice/BlogService/Blog.Application/Blog.Application.csproj": {
+                "projectPath": "/Users/jeremiahekanem/Documents/C#Projects/CleanArchitectureMicroservice/BlogService/Blog.Application/Blog.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.20, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.20, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.20, )"
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[9.0.0-preview.6.24327.7, )"
+            },
+            "NLog": {
+              "target": "Package",
+              "version": "[5.3.2, )"
+            },
+            "NLog.Config": {
+              "target": "Package",
+              "version": "[4.7.15, )"
+            },
+            "NLog.Extensions.Logging": {
+              "target": "Package",
+              "version": "[5.3.11, )"
+            },
+            "NLog.Web.AspNetCore": {
+              "target": "Package",
+              "version": "[5.3.11, )"
+            },
+            "Testcontainers.MsSql": {
+              "target": "Package",
+              "version": "[3.9.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/jeremiahekanem/Documents/C#Projects/CleanArchitectureMicroservice/BlogService/Blog/Blog.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/jeremiahekanem/Documents/C#Projects/CleanArchitectureMicroservice/BlogService/Blog/Blog.csproj",
+        "projectName": "Blog",
+        "projectPath": "/Users/jeremiahekanem/Documents/C#Projects/CleanArchitectureMicroservice/BlogService/Blog/Blog.csproj",
+        "packagesPath": "/Users/jeremiahekanem/.nuget/packages/",
+        "outputPath": "/Users/jeremiahekanem/Documents/C#Projects/CleanArchitectureMicroservice/BlogService/Blog/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/jeremiahekanem/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/jeremiahekanem/Documents/C#Projects/CleanArchitectureMicroservice/BlogService/Blog.Application/Blog.Application.csproj": {
+                "projectPath": "/Users/jeremiahekanem/Documents/C#Projects/CleanArchitectureMicroservice/BlogService/Blog.Application/Blog.Application.csproj"
+              },
+              "/Users/jeremiahekanem/Documents/C#Projects/CleanArchitectureMicroservice/BlogService/Blog.Infrastructure/Blog.Infrastructure.csproj": {
+                "projectPath": "/Users/jeremiahekanem/Documents/C#Projects/CleanArchitectureMicroservice/BlogService/Blog.Infrastructure/Blog.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.20, )"
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[9.0.0-preview.6.24327.7, )"
+            },
+            "NLog": {
+              "target": "Package",
+              "version": "[5.3.2, )"
+            },
+            "NLog.Config": {
+              "target": "Package",
+              "version": "[4.7.15, )"
+            },
+            "NLog.Extensions.Logging": {
+              "target": "Package",
+              "version": "[5.3.11, )"
+            },
+            "NLog.Web.AspNetCore": {
+              "target": "Package",
+              "version": "[5.3.11, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

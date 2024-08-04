@@ -1,0 +1,13 @@
+/Users/jeremiahekanem/Documents/C#Projects/CleanArchitectureMicroservice/BlogService/Blog.Domain/obj/Debug/net7.0/Blog.Domain.csproj.AssemblyReference.cache
+/Users/jeremiahekanem/Documents/C#Projects/CleanArchitectureMicroservice/BlogService/Blog.Domain/obj/Debug/net7.0/Blog.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jeremiahekanem/Documents/C#Projects/CleanArchitectureMicroservice/BlogService/Blog.Domain/obj/Debug/net7.0/Blog.Domain.AssemblyInfoInputs.cache
+/Users/jeremiahekanem/Documents/C#Projects/CleanArchitectureMicroservice/BlogService/Blog.Domain/obj/Debug/net7.0/Blog.Domain.AssemblyInfo.cs
+/Users/jeremiahekanem/Documents/C#Projects/CleanArchitectureMicroservice/BlogService/Blog.Domain/obj/Debug/net7.0/Blog.Domain.csproj.CoreCompileInputs.cache
+/Users/jeremiahekanem/Documents/C#Projects/CleanArchitectureMicroservice/BlogService/Blog.Domain/bin/Debug/net7.0/Blog.Domain.deps.json
+/Users/jeremiahekanem/Documents/C#Projects/CleanArchitectureMicroservice/BlogService/Blog.Domain/bin/Debug/net7.0/Blog.Domain.dll
+/Users/jeremiahekanem/Documents/C#Projects/CleanArchitectureMicroservice/BlogService/Blog.Domain/bin/Debug/net7.0/Blog.Domain.pdb
+/Users/jeremiahekanem/Documents/C#Projects/CleanArchitectureMicroservice/BlogService/Blog.Domain/obj/Debug/net7.0/Blog.Domain.dll
+/Users/jeremiahekanem/Documents/C#Projects/CleanArchitectureMicroservice/BlogService/Blog.Domain/obj/Debug/net7.0/refint/Blog.Domain.dll
+/Users/jeremiahekanem/Documents/C#Projects/CleanArchitectureMicroservice/BlogService/Blog.Domain/obj/Debug/net7.0/Blog.Domain.pdb
+/Users/jeremiahekanem/Documents/C#Projects/CleanArchitectureMicroservice/BlogService/Blog.Domain/obj/Debug/net7.0/ref/Blog.Domain.dll
+/Users/jeremiahekanem/Documents/C#Projects/CleanArchitectureMicroservice/BlogService/Blog.Domain/bin/Debug/net7.0/NLog.config
