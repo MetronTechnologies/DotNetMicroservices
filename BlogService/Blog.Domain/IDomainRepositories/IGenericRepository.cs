@@ -1,4 +1,5 @@
 using System.Linq.Expressions;
+using Blog.Domain.DomainSpecifications;
 using Blog.Domain.Extensions;
 
 namespace Blog.Domain.IDomainRepositories;
@@ -12,5 +13,6 @@ public interface IGenericRepository<T> where T : class {
     Task<bool> UpdateEntity(T entity);
     Task<int> UpdateAsync(int id, T entity);
     Task<IEnumerable<T>> GetAllToList(Expression<Func<T, bool>> expression);
-    Task<PaginationHelper<T>> GetAllWithPaging(int page, int pageSize, Expression<Func<T, bool>> expression, Expression<Func<T, object>> sorter);
+    Task<PaginationHelper<T>> GetAllWithPaging(PaginationDTO paginationDto, Expression<Func<T, bool>> filter, Expression<Func<T, object>> 
+        sorter);
 }

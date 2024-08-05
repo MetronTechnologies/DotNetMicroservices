@@ -6,6 +6,8 @@ using MediatR;
 namespace Blog.Application.Blog.Queries.GetBlogs; 
 
 public class GetBlogsQuery: IRequest<PaginationHelper<BlogViewResponse>> {
-    public int PageNumber { get; set; }
-    public int PageSize { get; set; }
+    public PaginationDTO PaginationDto { get; set; } = default!;
+    public string? Name { get; set; }
+    public string? Description { get; set; }
+    public string? Author { get; set; }
 }

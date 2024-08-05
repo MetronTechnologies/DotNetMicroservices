@@ -1,21 +1,20 @@
 using System.Linq.Expressions;
 using Blog.Application.Extensions;
+using Blog.Domain.DomainSpecifications;
 using Blog.Domain.Entities;
 using Blog.Domain.Extensions;
 using Blog.Domain.IDomainRepositories;
 using Blog.Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.ChangeTracking;
 
 namespace Blog.Infrastructure.InfrastructureRepositories;
 
 public class GenericRepository<T> : IGenericRepository<T> where T : class {
-    
     protected BlogDbContext _blogDbContext;
-    
-    internal DbSet<T> DbSet {
-        get; set;
-    }
-    
+
+    internal DbSet<T> DbSet { get; set; }
+
     public GenericRepository(BlogDbContext blogDbContext) {
         _blogDbContext = blogDbContext;
         DbSet = _blogDbContext.Set<T>();
@@ -28,6 +27,7 @@ public class GenericRepository<T> : IGenericRepository<T> where T : class {
 
     public async Task<T> CreateEntityAsync(T entity) {
         await DbSet.AddAsync(entity);
+        
         return entity;
     }
 
@@ -59,12 +59,16 @@ public class GenericRepository<T> : IGenericRepository<T> where T : class {
         throw new NotImplementedException();
     }
 
-    public async Task<PaginationHelper<T>> GetAllWithPaging(int page, int pageSize, Expression<Func<T, bool>> filter, 
-        Expression<Func<T, object>> sorter) {
-        IQueryable<T> query = DbSet
-            .Where(filter)
-            .OrderByDescending(sorter);
-        return await PaginationHelper<T>.ToPagedList(query, page, pageSize);
+    public async Task<PaginationHelper<T>> GetAllWithPaging(PaginationDTO paginationDto,
+        Expression<Func<T, bool>> filter, Expression<Func<T, object>> sorter) {
+        var query = DbSet.AsQueryable().Where(filter).OrderByDescending(sorter);
+        return await PaginationHelper<T>.ToPagedList(query, paginationDto);
+
+
+        // IQueryable<T> query = DbSet
+        //     .Where(filter)
+        //     .OrderByDescending(sorter);
+        // return await PaginationHelper<T>.ToPagedList(query, page, pageSize);
 
         // await Task.FromResult(DbSet.Where(filter)!.OrderByDescending(sorter).ToPagedList());
         // return await DbSet.Where(expression).OrderDescending(sorter).ToPaged

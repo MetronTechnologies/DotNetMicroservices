@@ -23,7 +23,9 @@ public class PaginationHelper<T> {
         Data = items;
     }
 
-    public static async Task<PaginationHelper<T>> ToPagedList(IQueryable<T> source, int pageNumber, int pageSize) {
+    public static async Task<PaginationHelper<T>> ToPagedList(IQueryable<T> source, PaginationDTO paginationDto) {
+        int pageNumber = paginationDto.page;
+        int pageSize = paginationDto.pageSize;
         int count = await source.CountAsync();
         List<T> items = await source.Skip((pageNumber - 1) * pageSize).Take(pageSize).ToListAsync();
         return new PaginationHelper<T>(items, count, pageNumber, pageSize);

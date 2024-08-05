@@ -1,3 +1,4 @@
+using System.Linq.Expressions;
 using AutoMapper;
 using Blog.Application.Blog;
 using Blog.Application.Blog.Queries.GetBlogs;
@@ -5,6 +6,7 @@ using Blog.Application.Common.Mappings;
 using Blog.Application.Extensions;
 using Blog.Application.Services.Interfaces;
 using Blog.Domain.DomainModels.Response;
+using Blog.Domain.DomainSpecifications.EntitySpecification;
 using Blog.Domain.Entities;
 using Blog.Domain.Extensions;
 using Blog.Domain.IDomainRepositories;
@@ -20,7 +22,7 @@ public class GetBlogsOperation : IGetBlogsOperation {
     private readonly IGenericMapper _genericMapper;
 
 
-    public GetBlogsOperation(IUnitOfWorkRepository unitOfWorkRepository, ILogger<GetBlogsOperation> logger, 
+    public GetBlogsOperation(IUnitOfWorkRepository unitOfWorkRepository, ILogger<GetBlogsOperation> logger,
         IGenericMapper genericMapper) {
         _unitOfWorkRepository = unitOfWorkRepository;
         _blogRepository = _unitOfWorkRepository._IBlogRepo;
@@ -30,10 +32,18 @@ public class GetBlogsOperation : IGetBlogsOperation {
 
     public async Task<PaginationHelper<BlogViewResponse>> GetBlogsProcess(GetBlogsQuery request,
         CancellationToken cancellationToken) {
+        BlogModel blogModel = new BlogModel() {
+            Author = request.Author,
+            Description = request.Description,
+            Name = request.Name
+        };
+        BlogQueryBuilder blogQueryBuilder = new BlogQueryBuilder();
+        Expression<Func<BlogModel,bool>> expression = blogQueryBuilder.GetBlogs(blogModel);
         PaginationHelper<BlogModel> allWithPaging = await _blogRepository.GetAllWithPaging(
-            request.PageNumber, request.PageSize, (x => x.Author == "Clark"), (x => x.Description)
+            request.PaginationDto, expression, (x => x.Description)
         );
-        IEnumerable<BlogViewResponse> blogViewModels = _genericMapper.MapCollection<BlogModel, BlogViewResponse>(allWithPaging.Data);
+        IEnumerable<BlogViewResponse> blogViewModels =
+            _genericMapper.MapCollection<BlogModel, BlogViewResponse>(allWithPaging.Data);
         PaginationHelper<BlogViewResponse> response = new PaginationHelper<BlogViewResponse>(blogViewModels,
             allWithPaging.TotalCount, allWithPaging.CurrentPage, allWithPaging.PageSize);
         return response;

@@ -1,9 +1,6 @@
-using Blog.Application.Common.Mappings;
-using Blog.Domain.Entities;
+namespace Blog.Domain.DomainModels.Request; 
 
-namespace Blog.Application.Blog; 
-
-public class BlogViewModel {
+public class BlogViewRequest {
     public int Id { get; set; }
     public string Name { get; set; } = default!;
     public string Description { get; set; } = default!;

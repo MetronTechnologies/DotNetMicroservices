@@ -6,6 +6,7 @@ using Blog.Application.Blog.Queries.GetBlogById;
 using Blog.Application.Blog.Queries.GetBlogs;
 using Blog.Application.Common.Mappings;
 using Blog.Application.Extensions;
+using Blog.Domain.DomainModels.Request;
 using Blog.Domain.DomainModels.Response;
 using Blog.Domain.Entities;
 using Blog.Domain.Extensions;
@@ -27,23 +28,29 @@ public class BlogController: ApiControllerBase {
     }
 
     [HttpGet]
-    public async Task<IActionResult> GetAllBlogsAsync(int pageNumber, int pageSize) {
+    public async Task<IActionResult> GetAllBlogsAsync(string? name, string? author, string? description,
+        int pageSize = 10, int page = 1) {
         PaginationHelper<BlogViewResponse> blogViewModels = await Mediator.Send(new GetBlogsQuery() {
-            PageNumber = pageNumber,
-            PageSize = pageSize
+            PaginationDto = new() {
+                page = page,
+                pageSize = pageSize
+            },
+            Author = author,
+            Name = name,
+            Description = description
         });
         return Ok(blogViewModels);
     }
     
     [HttpPost]
     public async Task<IActionResult> CreateBlogAsync(CreateBlogCommand command) {
-        BlogViewModel blogViewModel = await Mediator.Send(command);
+        BlogViewRequest blogViewRequest = await Mediator.Send(command);
         
         string blogByIdAsyncName = nameof(GetBlogByIdAsync);
         return CreatedAtAction(
             blogByIdAsyncName,
-            new { id = blogViewModel.Id },
-            blogViewModel
+            new { id = blogViewRequest.Id},
+            blogViewRequest
         );
     }
     
